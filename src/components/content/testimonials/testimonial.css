@@ -1,0 +1,38 @@
+.testimonialCard {
+  border-left: 4px solid var(--primary-color);
+}
+.testimonialCard img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+}
+.testiIcon {
+  position: absolute;
+  top: 40px;
+  right: -7px;
+  background-color: var(--primary-color);
+  font-size: 17px;
+  border-radius: 20px;
+  padding: 3px;
+  color: white;
+}
+.testimonialBody p {
+  font-size: 17px;
+  font-weight: 600;
+}
+.testimonialBody h5 {
+  font-size: 16px !important;
+}
+.testimonialBody h6 {
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.testimonialBody hr {
+  width: 30%;
+  border-color: var(--primary-color);
+  border-width: 3px;
+  opacity: 1;
+  border-radius: 20px;
+}

@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+body {
+  font-family: var(--primary-font);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box-shadow {
+  box-shadow: 0 0 13px 0px gainsboro;
+}
+.border-radius {
+  border-radius: 7px;
+}
+.sectionSpacing {
+  margin-top: 60px;
+}
+.primaryBtn,
+.secondaryBtn {
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 14px;
+  padding: 9px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid var(--primary-color);
+  font-weight: 600;
+}
+.secondaryBtn {
+  background-color: transparent;
+  color: var(--primary-color);
 }

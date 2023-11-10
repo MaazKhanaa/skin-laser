@@ -1,0 +1,60 @@
+.carousalMain {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousalOverlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carousalMain h1 {
+  color: white;
+  font-size: 60px;
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+  font-weight: 600;
+}
+.carousalMain p {
+  color: gainsboro;
+  font-size: 20px;
+  font-family: var(--primary-font);
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--primary-color) !important;
+}
+
+@media (max-width: 1024px) {
+  .carousalMain h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousalMain h1 {
+    font-size: 40px;
+  }
+  .carousalMain p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .carousalMain h1 {
+    font-size: 30px;
+  }
+  .carousalMain p {
+    font-size: 14px;
+  }
+  .carousalMain {
+    height: 300px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}

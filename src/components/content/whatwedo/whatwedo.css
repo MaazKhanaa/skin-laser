@@ -1,0 +1,15 @@
+.mainWhatWedo {
+  background-image: url('../../../images/whatwedo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: auto;
+}
+.mainWhatWeDoOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.whatWedoIcon {
+  color: var(--primary-color);
+  font-size: 20px;
+}

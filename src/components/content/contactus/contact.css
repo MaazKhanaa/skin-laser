@@ -1,0 +1,22 @@
+.contactMain {
+  border-right: 1px solid gainsboro;
+}
+.contactIcon {
+  font-size: 25px;
+  color: var(--primary-color);
+  display: inline-flex;
+  background-color: #69231930;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.contactPara {
+  font-weight: 500;
+  color: gray;
+  font-size: 15px;
+}
+.contactHead {
+  font-size: 16px;
+}

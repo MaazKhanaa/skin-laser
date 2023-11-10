@@ -1,0 +1,10 @@
+.aboutIcon {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+.aboutText {
+  font-size: 17px;
+  padding-left: 10px;
+  font-weight: 500;
+  color: gray;
+}

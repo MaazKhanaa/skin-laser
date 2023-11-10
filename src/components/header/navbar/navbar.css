@@ -1,0 +1,25 @@
+.navbar-nav .nav-link {
+  font-size: 15px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+.navbar-nav .nav-link.active {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.topnavbarMain {
+  background-color: var(--secondary-color);
+}
+.topNavLink {
+  color: white !important;
+  font-size: 18px;
+}
+.addressText {
+  font-size: 14px;
+  font-family: var(--primary-font);
+}
