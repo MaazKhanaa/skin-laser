@@ -11,10 +11,10 @@ const OurServices = () => {
     <Fragment>
       <div className='container sectionSpacing'>
         <MainHeading text='Our Services' />
-        <div className='row'>
+        <div className='row justify-content-center'>
           {servicesArray.map((item, index) => {
             return (
-              <div className='col-xl-4 col-sm-6 mb-3'>
+              <div className='col-xl-4 col-sm-6 mb-4'>
                 <div className='serviceCard h-100' key={index}>
                   <div className='cardHeading'>
                     <img src={item.imag} />
@@ -25,7 +25,7 @@ const OurServices = () => {
                         <SubHeading text={item.heading} />
                         <Paragraph text={item.text} />
                       </div>
-                      <div className='text-center'>
+                      <div className='text-center mt-3'>
                         <Link to={item.href} className='secondaryBtn'>
                           Read More
                         </Link>
@@ -36,11 +36,6 @@ const OurServices = () => {
               </div>
             );
           })}
-        </div>
-        <div className='text-center'>
-          <Link to='#' className='primaryBtn'>
-            View all
-          </Link>
         </div>
       </div>
     </Fragment>

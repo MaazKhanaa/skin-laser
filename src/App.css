@@ -40,7 +40,9 @@ body {
     transform: rotate(360deg);
   }
 }
-
+.primaryBg {
+  background-color: var(--primary-bg);
+}
 .box-shadow {
   box-shadow: 0 0 13px 0px gainsboro;
 }

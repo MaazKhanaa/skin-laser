@@ -49,11 +49,11 @@ const Carousal = () => {
                           {item.heading}
                         </h1>
                         <p className=''>{item.text}</p>
-                        <div className=''>
+                        {/* <div className=''>
                           <Link to='#appointmentSection' className='primaryBtn'>
                             Make an Appointment
                           </Link>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

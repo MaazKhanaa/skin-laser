@@ -5,6 +5,7 @@ import { AiFillClockCircle } from 'react-icons/ai';
 import { FaPhone } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import './contact.css';
+import WhatsAppChat from '../../constants/whatsAppChat.js';
 
 const Contact = () => {
   return (
@@ -23,7 +24,7 @@ const Contact = () => {
                 </div>
               </div>;
             })} */}
-            <div className='col-lg-4 contactMain mb-3 mb-lg-0'>
+            <div className='col-lg-3 contactMain mb-3 mb-lg-0'>
               <div className='d-flex align-items-center'>
                 <span className='contactIcon'>
                   <AiFillClockCircle />
@@ -34,7 +35,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 contactMain mb-3 mb-lg-0'>
+            <div className='col-lg-3 contactMain mb-3 mb-lg-0'>
               <div className='d-flex align-items-center'>
                 <span className='contactIcon'>
                   <FaPhone />
@@ -45,7 +46,20 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 mb-3 mb-lg-0'>
+
+            <div className='col-lg-3 contactMain mb-3 mb-lg-0'>
+              <div className='d-flex align-items-center'>
+                <span className='contactIcon'>
+                  <WhatsAppChat phoneNumber="+923147964001" />
+                </span>
+                <div className='pl-3'>
+                  <h6 className='mb-0 contactHead'>Whatsapp</h6>
+                  <p className='m-0 contactPara'>03147964001</p>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-3 mb-3 mb-lg-0'>
               <div className='d-flex align-items-center'>
                 <span className='contactIcon'>
                   <MdEmail />

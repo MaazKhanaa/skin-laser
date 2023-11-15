@@ -3,6 +3,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import WhatsAppChat from '../../constants/whatsAppChat';
 
 const TopNavbar = () => {
   return (
@@ -30,11 +31,14 @@ const TopNavbar = () => {
                 <FaFacebookF />
               </Link>
               <Link
-                className='topNavLink'
+                className='topNavLink pe-3'
                 target='_blank'
                 to='https://www.instagram.com/thebestskinandlaser/'>
                 <AiFillInstagram />
               </Link>
+              <span className='topNavLink'>
+                <WhatsAppChat phoneNumber="+923147964001" />
+                </span>
             </div>
           </div>
         </div>

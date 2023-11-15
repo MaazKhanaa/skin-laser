@@ -14,13 +14,11 @@ export const servicesArray = [
         option3: "American Diode",
         option4: "American IPL",
         option5: "We also provide electrolysis for white hair.",
-        href: "#"
     },
     {
         imag: imag2,
         heading: "Body Excess Fat Removal",
         text: "Depending on your goal, two body-contouring procedures - 𝐥𝐢𝐩𝐨𝐬𝐮𝐜𝐭𝐢𝐨𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐜𝐨𝐨𝐥 𝐬𝐜𝐮𝐥𝐩𝐭𝐢𝐧𝐠(𝐂𝐫𝐲𝐨𝐥𝐢𝐩𝐨𝐥𝐲𝐬𝐢𝐬) – can help you achieve the look you want.",
-        href: "#"
     },
     {
         imag: image3,
@@ -33,7 +31,6 @@ export const servicesArray = [
         option3: "RF(Radio-Frequency) Treatment",
         option4: "skin rejuvenation services.",
         option5: "And signature face sculpting",
-        href: "#"
     },
     {
         imag: imag4,
@@ -46,7 +43,6 @@ export const servicesArray = [
         option3: "Exosome Therapy",
         option4: "FDA Approved Stem Cells treatment",
         option5: "Hair Transplant",
-        href: "#"
     },
 
     {
@@ -59,7 +55,6 @@ export const servicesArray = [
         option3: "Subcision and Fillers",
         option4: "RF microneedling with PRP",
         option5: "The Natural Enhancement of Fat grafting",
-        href: "#"
     },
 
 ]

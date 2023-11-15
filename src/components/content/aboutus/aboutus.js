@@ -10,7 +10,7 @@ const AboutUs = () => {
     <Fragment>
       <div className='container sectionSpacing'>
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-sm-6 mb-4 mb-sm-0'>
             {aboutUsPic.map((item) => (
               <img src={item.imag} />
             ))}
@@ -20,24 +20,8 @@ const AboutUs = () => {
               <div>
                 <MainHeading text={item.heading} />
                 <Paragraph text={item.text} />
-                <div className='d-flex mb-3'>
-                  <span className='aboutIcon'>
-                    <FaGraduationCap />
-                  </span>
-                  <span className='aboutText'>{item.Edu1}</span>
-                </div>
-                <div className='d-flex mb-3'>
-                  <span className='aboutIcon'>
-                    <FaGraduationCap />
-                  </span>
-                  <span className='aboutText'>{item.Edu2}</span>
-                </div>
-                <div className='d-flex'>
-                  <span className='aboutIcon'>
-                    <FaGraduationCap />
-                  </span>
-                  <span className='aboutText'>{item.Edu3}</span>
-                </div>
+                <Paragraph text={item.text1} />
+                <Paragraph text={item.text2} />
               </div>
             ))}
           </div>
