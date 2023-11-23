@@ -1,0 +1,21 @@
+.topHeading {
+    background-color: var(--primary-color);
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.serviceTag {
+    width: fit-content;
+    display: block;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 10px;
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+    .topHeading {
+        height: 200px;
+    }
+}

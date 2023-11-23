@@ -1,0 +1,7 @@
+.breadcrumb-item a {
+    color: white !important;
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+}
